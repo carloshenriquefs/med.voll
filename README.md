@@ -10,6 +10,10 @@
 - CRUD (Create, Read, Update e Delete);
 - Validações;
 - Paginação e ordenação;
+- Boas práticas na API;
+- Tratamento de erros;
+- Autenticação / Autorização;
+- Tokens JWT;
 
 #
 
