@@ -28,15 +28,15 @@ public class Paciente {
     }
 
     public void atualizarInformacoes(DadosAtualizacaoPaciente dados) {
-        if(dados.nome() != null) {
+        if (dados.nome() != null) {
             this.nome = dados.nome();
         }
 
-        if(dados.email() != null) {
+        if (dados.email() != null) {
             this.email = dados.email();
         }
 
-        if(dados.cpf() != null) {
+        if (dados.cpf() != null) {
             this.cpf = dados.cpf();
         }
     }
