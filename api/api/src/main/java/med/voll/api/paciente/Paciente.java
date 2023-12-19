@@ -21,7 +21,7 @@ public class Paciente {
     private String email;
     private String cpf;
 
-    public Paciente(DadosListagemPaciente dados) {
+    public Paciente(DadosCadastroPaciente dados) {
         this.nome = dados.nome();
         this.email = dados.email();
         this.cpf = dados.cpf();
