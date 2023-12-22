@@ -12,7 +12,9 @@
 - Paginação e ordenação;
 - Boas práticas na API;
 - Tratamento de erros;
-- Autenticação / Autorização;
+- Autenticação;
+- Autorização (controle de acesso);
+- Proteção contra ataques (CSRF, clickjacking, etc.);
 - Tokens JWT;
 
 #
@@ -36,6 +38,18 @@
 - show tables;
 - desc medicos;
 - select * from medicos;
+
+#
+
+## :key: - Autenticação:
+
+![autentificacao drawio (2)](https://github.com/carloshenriquefs/med.voll/assets/54969405/a181fa17-d3e0-4c6d-8082-cd229c8c4ba6)
+
+#
+
+## :closed_lock_with_key: - Autorização:
+
+![autorizacao drawio](https://github.com/carloshenriquefs/med.voll/assets/54969405/b7a898de-4d73-414f-aa5f-02423c893016)
 
 #
 
