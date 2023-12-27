@@ -38,6 +38,15 @@
 - show tables;
 - desc medicos;
 - select * from medicos;
+- insert into usuarios values (1, 'ana.souza@voll.med', '123456');
+
+#
+
+## :pushpin: - STATELESS:
+
+- Autenticação em API REST: não guarda estado, não possui dados armazenados no lado do servidor; 
+
+![filters drawio](https://github.com/carloshenriquefs/med.voll/assets/54969405/81e94c9c-6a5c-42ee-b03e-032f2d1a6299)
 
 #
 
