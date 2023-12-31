@@ -8,6 +8,8 @@ import med.voll.api.repository.PacienteRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import static med.voll.api.constants.Constants.*;
+
 @Service
 public class AgendaDeConsultas {
 
@@ -23,11 +25,11 @@ public class AgendaDeConsultas {
     public void agendar(DadosAgendamentoConsulta dadosAgendamentoConsulta) {
 
         if (!pacienteRepository.existsById(dadosAgendamentoConsulta.idPaciente())) {
-            throw new ValidacaoException("Id do paciente informado não existe!");
+            throw new ValidacaoException(ID_DO_PACIENTE_NAO_EXISTE);
         }
 
         if (dadosAgendamentoConsulta.idMedico() != null && !medicoRepository.existsById(dadosAgendamentoConsulta.idMedico())) {
-            throw new ValidacaoException("Id do médico informado não existe!");
+            throw new ValidacaoException(ID_DO_MEDICO_NAO_EXISTE);
         }
 
         var paciente = pacienteRepository.getReferenceById(dadosAgendamentoConsulta.idPaciente());
@@ -39,7 +41,7 @@ public class AgendaDeConsultas {
 
     public void cancelar(DadosCancelamentoConsulta dados) {
         if (!consultaRepository.existsById(dados.idConsulta())) {
-            throw new ValidacaoException("Id da consulta informado não existe!");
+            throw new ValidacaoException(ID_DA_CONSULTA_NAO_EXISTE);
         }
 
         var consulta = consultaRepository.getReferenceById(dados.idConsulta());
@@ -52,7 +54,7 @@ public class AgendaDeConsultas {
         }
 
         if (dadosAgendamentoConsulta.especialidade() == null) {
-            throw new ValidacaoException("Especialidade é obrigatória quando médico não for escolhido!");
+            throw new ValidacaoException(ESPECIALIDADE_OBRIGATORIA);
         }
 
         return medicoRepository.escolherMedicoAleatorioLivreNaData(dadosAgendamentoConsulta.especialidade(), dadosAgendamentoConsulta.data());

@@ -6,6 +6,8 @@ import med.voll.api.domain.consulta.DadosAgendamentoConsulta;
 import java.time.Duration;
 import java.time.LocalDateTime;
 
+import static med.voll.api.constants.Constants.CONSULTA_AGENDADA_COM_ANTECEDENCIA;
+
 public class ValidadorHorarioAntecedencia {
 
     public void validar(DadosAgendamentoConsulta dados) {
@@ -14,7 +16,7 @@ public class ValidadorHorarioAntecedencia {
         var diferencaEmMinutos = Duration.between(agora, dataConsulta).toMinutes();
 
         if (diferencaEmMinutos < 30) {
-            throw new ValidacaoException("Consulta deve ser agendada com antecedência minima de 30 minutos");
+            throw new ValidacaoException(CONSULTA_AGENDADA_COM_ANTECEDENCIA);
         }
     }
 }

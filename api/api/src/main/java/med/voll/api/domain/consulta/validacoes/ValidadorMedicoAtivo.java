@@ -4,6 +4,8 @@ import med.voll.api.domain.ValidacaoException;
 import med.voll.api.domain.consulta.DadosAgendamentoConsulta;
 import med.voll.api.repository.MedicoRepository;
 
+import static med.voll.api.constants.Constants.CONSULTA_NAO_AGENDADA_COM_MEDICO_INEXISTENTE;
+
 public class ValidadorMedicoAtivo {
 
     private MedicoRepository medicoRepository;
@@ -15,7 +17,7 @@ public class ValidadorMedicoAtivo {
 
         var medicoEstaAtivo = medicoRepository.findAtivoById(dados.idMedico());
         if(!medicoEstaAtivo) {
-            throw new ValidacaoException("Consulta não pode ser agendada com médico excluído");
+            throw new ValidacaoException(CONSULTA_NAO_AGENDADA_COM_MEDICO_INEXISTENTE);
         }
     }
 }
