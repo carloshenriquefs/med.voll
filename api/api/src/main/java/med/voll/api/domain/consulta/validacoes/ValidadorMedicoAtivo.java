@@ -3,11 +3,15 @@ package med.voll.api.domain.consulta.validacoes;
 import med.voll.api.domain.ValidacaoException;
 import med.voll.api.domain.consulta.DadosAgendamentoConsulta;
 import med.voll.api.repository.MedicoRepository;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 
 import static med.voll.api.constants.Constants.CONSULTA_NAO_AGENDADA_COM_MEDICO_INEXISTENTE;
 
-public class ValidadorMedicoAtivo {
+@Component
+public class ValidadorMedicoAtivo implements ValidadorAgendamentoDeConsulta {
 
+    @Autowired
     private MedicoRepository medicoRepository;
 
     public void validar(DadosAgendamentoConsulta dados) {
