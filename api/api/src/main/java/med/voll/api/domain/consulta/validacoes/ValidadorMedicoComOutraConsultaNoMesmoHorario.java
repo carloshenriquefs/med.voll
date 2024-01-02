@@ -6,7 +6,7 @@ import med.voll.api.repository.ConsultaRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
-import static med.voll.api.constants.Constants.MEDICO_POSSUI_CONSULTA;
+import static med.voll.api.constants.Constants.MEDICO_JA_POSSUI_CONSULTA;
 
 @Component
 public class ValidadorMedicoComOutraConsultaNoMesmoHorario implements ValidadorAgendamentoDeConsulta {
@@ -17,7 +17,7 @@ public class ValidadorMedicoComOutraConsultaNoMesmoHorario implements ValidadorA
     public void validar(DadosAgendamentoConsulta dados) {
         var medicoPossuiOutraConsultaNoMesmoHorario = consultaRepository.existsByMedicoIdAndData(dados.idMedico(), dados.data());
         if (medicoPossuiOutraConsultaNoMesmoHorario) {
-            throw new ValidacaoException(MEDICO_POSSUI_CONSULTA);
+            throw new ValidacaoException(MEDICO_JA_POSSUI_CONSULTA);
         }
     }
 }
