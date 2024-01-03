@@ -1,0 +1,526 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="67c79fb7-ba0e-4de1-a440-38b194e6ef93" name="Changes" comment="Ajustes">
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Record" />
+        <option value="Enum" />
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="workOffline" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2ZCel4IulCQh3xRzr7BfsGg6PPw" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.med.voll.api.ApiApplication.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/projetos/Nova pasta/med.voll",
+    "settings.editor.selected.configurable": "preferences.updates"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="med.voll.api.domain" />
+      <recent name="med.voll.api.infra.exceptions.security" />
+      <recent name="med.voll.api.domain.usuario" />
+      <recent name="med.voll.api.paciente" />
+      <recent name="med.voll.api.medico" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\projetos\med.voll\api\api\src\main\resources\migration" />
+      <recent name="C:\projetos\med.voll\api\api\src\main\resources" />
+      <recent name="C:\projetos\med.voll\api\api\src\main\resources\db\migration" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\projetos\med.voll\api\api\src\main\resources\db" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="med.voll.api.infra.exceptions" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="med.voll.api.infra.security" />
+      <recent name="med.voll.api.controller" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="med.voll.api.ApiApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="med.voll.api.ApiApplication" />
+      <module name="api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="med.voll.api.repository.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.med.voll.api.ApiApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-18.0.2-corretto-18.0.2-f644763e9732-da6bd485" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="67c79fb7-ba0e-4de1-a440-38b194e6ef93" name="Changes" comment="" />
+      <created>1701930636279</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1701930636279</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Hello World">
+      <created>1702090559676</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1702090559676</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Recebendo dados da API">
+      <created>1702176406484</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1702176406484</updated>
+    </task>
+    <task id="LOCAL-00003" summary="DTO com Java Record">
+      <created>1702177588803</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1702177588803</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Adicionando dependencias">
+      <created>1702187656785</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1702187656785</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Entidades JPA">
+      <created>1702271845143</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1702271845143</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Interface Repository">
+      <created>1702272886169</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1702272886169</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Migrations com Flyway">
+      <created>1702274198899</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1702274198899</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Validacao com Bean Validation">
+      <created>1702358025691</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1702358025691</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Nova Migration">
+      <created>1702359424327</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1702359424327</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Produção de Dados da API">
+      <created>1702360228432</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1702360228433</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Paginacao">
+      <created>1702521504430</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1702521504431</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Ordenacao">
+      <created>1702522457260</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1702522457260</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Atualizacao de Dados">
+      <created>1702609035050</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1702609035050</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Requisicoes DELETE">
+      <created>1702677136651</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1702677136651</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Exclusao logica">
+      <created>1702678472412</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1702678472412</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Add - Endpoint listar pacientes">
+      <created>1702869044633</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1702869044633</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Padronizando retornos da API">
+      <created>1702872697091</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1702872697091</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Detalhando dados na API">
+      <created>1702956498070</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1702956498071</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Endpoint de cadastro de Pacientes">
+      <created>1702958443532</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1702958443534</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Endpoint de atualizacao de Pacientes">
+      <created>1702959408977</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1702959408982</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Endpoint de detalhar Pacientes">
+      <created>1702960928375</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1702960928376</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Lidando com erros na API">
+      <created>1703044378292</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1703044378292</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Tratando erro 404">
+      <created>1703045481350</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1703045481350</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Tratando erro 400">
+      <created>1703048103259</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1703048103259</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Mensagem de erro personalizada">
+      <created>1703049183309</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1703049183309</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Adicionando o Spring Security">
+      <created>1703136087063</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1703136087063</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Entidade usuario e migration">
+      <created>1703136774549</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1703136774549</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Repository e Service">
+      <created>1703306941521</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1703306941522</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Configuracao de segurança">
+      <created>1703307709855</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1703307709856</updated>
+    </task>
+    <task id="LOCAL-00030" summary="Controller de autenticacao">
+      <created>1703309396487</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1703309396487</updated>
+    </task>
+    <task id="LOCAL-00031" summary="Adicionando a lib auth0 jwt">
+      <created>1703395846744</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1703395846744</updated>
+    </task>
+    <task id="LOCAL-00032" summary="Gerando tokens JWT">
+      <option name="closed" value="true" />
+      <created>1703480453242</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1703480453243</updated>
+    </task>
+    <task id="LOCAL-00033" summary="Ajustes na geracao do token">
+      <option name="closed" value="true" />
+      <created>1703481440863</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1703481440863</updated>
+    </task>
+    <task id="LOCAL-00034" summary="Criando o filter de seguranca">
+      <option name="closed" value="true" />
+      <created>1703564896947</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1703564896948</updated>
+    </task>
+    <task id="LOCAL-00035" summary="Recuperando o token">
+      <option name="closed" value="true" />
+      <created>1703565765462</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1703565765463</updated>
+    </task>
+    <task id="LOCAL-00036" summary="Validando o token recebido">
+      <option name="closed" value="true" />
+      <created>1703566719774</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1703566719775</updated>
+    </task>
+    <task id="LOCAL-00037" summary="Autenticando o usuario">
+      <option name="closed" value="true" />
+      <created>1703653680471</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1703653680471</updated>
+    </task>
+    <task id="LOCAL-00038" summary="Tratando mais erros">
+      <option name="closed" value="true" />
+      <created>1703657652859</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1703657652861</updated>
+    </task>
+    <task id="LOCAL-00039" summary="Controle de acesso por anotacoes">
+      <option name="closed" value="true" />
+      <created>1703657755486</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1703657755486</updated>
+    </task>
+    <task id="LOCAL-00040" summary="Nova funcionalidade">
+      <option name="closed" value="true" />
+      <created>1703741744381</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1703741744381</updated>
+    </task>
+    <task id="LOCAL-00041" summary="Ajustes">
+      <option name="closed" value="true" />
+      <created>1703741793302</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1703741793302</updated>
+    </task>
+    <task id="LOCAL-00042" summary="Classe Service">
+      <option name="closed" value="true" />
+      <created>1703826761864</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1703826761865</updated>
+    </task>
+    <task id="LOCAL-00043" summary="Validacoes de Integridade">
+      <option name="closed" value="true" />
+      <created>1703827362638</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1703827362638</updated>
+    </task>
+    <task id="LOCAL-00044" summary="Escolha do medico aleatorio">
+      <option name="closed" value="true" />
+      <created>1703828755412</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1703828755412</updated>
+    </task>
+    <task id="LOCAL-00045" summary="Cancelamento de Consultas">
+      <option name="closed" value="true" />
+      <created>1703911500042</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1703911500042</updated>
+    </task>
+    <task id="LOCAL-00046" summary="Classes de validacao">
+      <option name="closed" value="true" />
+      <created>1703914225380</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1703914225380</updated>
+    </task>
+    <task id="LOCAL-00047" summary="Adicao das Constantes">
+      <option name="closed" value="true" />
+      <created>1703998745118</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1703998745119</updated>
+    </task>
+    <task id="LOCAL-00048" summary="Aplicando principios SOLID">
+      <option name="closed" value="true" />
+      <created>1703999883450</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1703999883796</updated>
+    </task>
+    <task id="LOCAL-00049" summary="Ajustes">
+      <option name="closed" value="true" />
+      <created>1704164342905</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1704164342905</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Tratando erro 400" />
+    <MESSAGE value="Mensagem de erro personalizada" />
+    <MESSAGE value="Adicionando o Spring Security" />
+    <MESSAGE value="Entidade usuario e migration" />
+    <MESSAGE value="Repository e Service" />
+    <MESSAGE value="Configuracao de segurança" />
+    <MESSAGE value="Controller de autenticacao" />
+    <MESSAGE value="Adicionando a lib auth0 jwt" />
+    <MESSAGE value="Gerando tokens JWT" />
+    <MESSAGE value="Ajustes na geracao do token" />
+    <MESSAGE value="Criando o filter de seguranca" />
+    <MESSAGE value="Recuperando o token" />
+    <MESSAGE value="Validando o token recebido" />
+    <MESSAGE value="Autenticando o usuario" />
+    <MESSAGE value="Tratando mais erros" />
+    <MESSAGE value="Controle de acesso por anotacoes" />
+    <MESSAGE value="Nova funcionalidade" />
+    <MESSAGE value="Classe Service" />
+    <MESSAGE value="Validacoes de Integridade" />
+    <MESSAGE value="Escolha do medico aleatorio" />
+    <MESSAGE value="Cancelamento de Consultas" />
+    <MESSAGE value="Classes de validacao" />
+    <MESSAGE value="Adicao das Constantes" />
+    <MESSAGE value="Aplicando principios SOLID" />
+    <MESSAGE value="Ajustes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ajustes" />
+  </component>
+</project>
