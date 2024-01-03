@@ -18,4 +18,5 @@ public class Constants {
     public static final String CONSULTA_NAO_AGENDADA_COM_MEDICO_INEXISTENTE = "Consulta não pode ser agendada com médico excluído.";
     public static final String CONSULTA_NAO_AGENDADA_PACIENTE_INEXISTENTE = "Consulta não pode ser agendada com paciente excluído.";
     public static final String PACIENTE_COM_CONSULTA_AGENDADA = "Paciente já possui uma consulta agendada nesse dia.";
+    public static final String CONSULTA_COM_ANTECEDENCIA_MINIMA = "Consulta somente pode ser cancelada com antecedência mínima de 24h!";
 }
