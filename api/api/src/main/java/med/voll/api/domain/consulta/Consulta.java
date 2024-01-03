@@ -45,4 +45,24 @@ public class Consulta {
         this.data = data;
         this.motivoCancelamento = motivoCancelamento;
     }
+
+    public Long getId() {
+        return id;
+    }
+
+    public Medico getMedico() {
+        return medico;
+    }
+
+    public Paciente getPaciente() {
+        return paciente;
+    }
+
+    public LocalDateTime getData() {
+        return data;
+    }
+
+    public MotivoCancelamento getMotivoCancelamento() {
+        return motivoCancelamento;
+    }
 }
