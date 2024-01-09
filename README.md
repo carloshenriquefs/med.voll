@@ -1,6 +1,16 @@
 ## :construction: - Projeto Voll Med:
 
-- Aplicativo para uma clínica para monitorar o cadastro de médicos, pacientes e agendamento de consultas;
+- Aplicativo para monitorar uma clínica médica para gestão de consultas.
+- Funcionalidades como: cadastro de médicos e de pacientes, e também o agendamento e cancelamento de consultas;
+
+#
+
+## ⚙️ - Funcionalidades:
+
+- [x] - CRUD de médicos;
+- [x] - CRUD de pacientes;
+- [x] - Agendamento de consultas;
+- [x] - Cancelamento de consultas.
 
 #
 
@@ -16,10 +26,16 @@
 - Autorização (controle de acesso);
 - Proteção contra ataques (CSRF, clickjacking, etc.);
 - Tokens JWT;
+- Funcionalidade de agendamentos de consultas;
+- Documentação da API;
+- Testes automatizados;
+- Build do projeto;
 
 #
 
-## :gear: - Tecnologias:
+## :computer: - Tecnologias:
+
+As seguintes tecnologias foram utilizadas no desenvolvimento da API Rest do projeto:
 
 - Spring Boot 3;
 - Java 17;
@@ -33,12 +49,15 @@
 
 ## :video_game: - Comandos Flyway:
 
+```
 - mysql -u root  -p;
 - use nome_do_banco;
 - show tables;
 - desc medicos;
 - select * from medicos;
 - insert into usuarios values (1, 'ana.souza@voll.med', '123456');
+- insert into usuarios values (1, 'ana.souza@voll.med', '$2a$10$Y50UaMFOxteibQEYLrwuHeehHYfcoafCopUazP12.rqB41bsolF5.');
+```
 
 #
 
@@ -62,6 +81,24 @@
 
 #
 
+## :green_book: - Swagger:
+
+```
+http://localhost:8080/swagger-ui/index.html
+```
+
+#
+
+## 📄 - Documentação:
+
+- A documentação das funcionalidades da aplicação pode ser acessada neste link: <a href="https://trello.com/b/O0lGCsKb/api-voll-med">Trello</a>
+
+#
+
 ## :framed_picture: - Layout: 
 
-![image](https://github.com/carloshenriquefs/med.voll/assets/54969405/a66575b6-80d4-4422-8971-1ba7c313ecc6)
+- O layout da aplicação mobile está disponível neste link: <a href="https://www.figma.com/file/N4CgpJqsg7gjbKuDmra3EV/Voll.med">Figma</a>
+
+
+![image](https://github.com/carloshenriquefs/med.voll/assets/54969405/6ac140bb-a5ce-4be3-9c08-3b3d444ef1f8)
+
